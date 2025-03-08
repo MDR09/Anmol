@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const musicBtn = document.getElementById('toggleMusic');
   const musicIcon = document.getElementById('musicIcon');
   const audio = new Audio();
-  audio.src = 'birthday-song.mp3';
+  audio.src = 'birthday-song.m4a';
   audio.play().catch(error => console.error('Audio playback failed:', error));
   console.log(audio.src);
   audio.volume = 1.0; // Set full volume
